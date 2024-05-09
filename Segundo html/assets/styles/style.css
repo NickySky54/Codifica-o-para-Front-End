@@ -1,0 +1,108 @@
+.container
+{
+    border: 5px solid #ffc5cc;
+    display: flex;
+    /*distribui os elementos em linhas abaixo garatindo o tamanhi padrão dos elementos*/
+    flex-wrap:wrap;
+    height: 800px;
+    /*
+    
+    align-items: strech;
+    /*.pesquisar{
+    /*margin-right: auto;
+    .inicio{
+
+    }
+    /*margin-left: auto;
+    (elementos ficam esticados até em baixo)
+    align-items: flex-start;
+    (ficam posicionados no canto superior esquerdo)
+    align-items: flex-end;
+    (ficam posicionados no canto inferior esquerdo)
+    align-items: center;
+    (ficam posicionados no centro)
+    justify-content
+    (disposição dos elementos de forma horizontal/lina
+    align-items
+    (disposição dos elementos de forma vertical/coluna
+    */
+    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.container > div 
+{
+    padding: 10px;
+    text-align: center;
+    font-size: 2em;
+    width: 200px;
+    color: #ffeead;
+}
+.first{
+    display: flex;
+    justify-content: center;
+}
+.second{
+    display: flex;
+    justify-content: center;
+}
+.third{
+    display: flex;
+    justify-content: center;
+}
+.fourth{
+    display: flex;
+    justify-content: center;
+}
+.box1
+{
+    background-color:rgb(17, 129, 36);
+}
+.box2
+{
+    background-color:aqua;
+}
+.box3
+{
+    background-color:crimson;
+}
+.box4
+{
+    background-color:rgb(148, 18, 137);
+}
+.box5
+{
+    background-color:rgb(9, 236, 65);
+}
+.box6
+{
+    background-color:rgb(220, 127, 20);
+}
+.box7
+{
+    background-color:rgb(129, 17, 45);
+}
+.box8
+{
+    background-color:rgb(25, 2, 61);
+}
+.box9
+{
+    background-color:rgb(117, 220, 20);
+}
+.box10
+{
+    background-color:rgb(95, 103, 207);
+}
+.box11
+{
+    background-color:rgb(67, 187, 11);
+}
+.box12
+{
+    background-color:rgb(255, 0, 0);
+}
+html, body {
+    box-sizing: border-box;
+    height: 100%;
+}

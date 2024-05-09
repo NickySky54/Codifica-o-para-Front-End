@@ -1,0 +1,54 @@
+body {font-family: roboto, sans-seriff; font-size:2em;}
+h1 {font-family: "Open Sans", sans-serif;font-size: 1.5em;font-weight: 700;}
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1px 1px;
+  border: 2px;
+  border-color: solid black;
+  border-style: solid;
+  grid-auto-flow: row;
+  background-color: white;
+  grid-template-areas:
+    "Header Header Header"
+    "sidebar mainContent mainContent"
+    "footer footer footer";
+}
+
+.Header {
+  grid-area: Header;
+  text-align: center;
+  color: orangered;
+  justify-content: center;
+  border-style: solid;
+  border-color: black;
+}
+
+.mainContent {
+  grid-area: mainContent;
+  text-align: center;
+  color: orangered;
+  justify-content: center;
+  border-style: solid;
+  border-color: black;
+
+}
+
+.sidebar {
+  grid-area: sidebar;
+  text-align: center;
+  color: orangered;
+  justify-content: center;
+  border-style: solid;
+  border-color: black;
+}
+
+.footer {
+  grid-area: footer;
+  text-align: center;
+  color: orangered;
+  justify-content: center;
+  border-style: solid;
+border-color: black;
+}

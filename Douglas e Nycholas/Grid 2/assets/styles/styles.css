@@ -1,0 +1,135 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto auto auto auto auto;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "a a a c"
+    "b b b c"
+    "d e e e"
+    "d f f f"
+    "g g h h"
+    "i i i i"
+    "j j j l"
+    "k k k l";
+}
+
+.a {
+  grid-area: a;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.b {
+  grid-area: b;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c {
+  grid-area: c;
+  height: 404px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d {
+  grid-area: d;
+  height: 604px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.e {
+  grid-area: e;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f {
+  grid-area: f;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.g {
+  grid-area: g;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h {
+  grid-area: h;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.i {
+  grid-area: i;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.j {
+  grid-area: j;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.k {
+  grid-area: k;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.l {
+  grid-area: l;
+  height: 604px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.default {
+  background-color: #3171a5;
+  border: 2px solid rgb(247, 242, 175);
+  text-align: center;
+}
+.bandeira {
+  height: 150px;
+  width: 200px;
+}
+.japan {
+  height: 150px;
+  width: 200px;
+}
+.tako {
+  height: 130px;
+  width: 200px;
+}
+.russia {
+  height: 170px;
+  width: 190px;
+}

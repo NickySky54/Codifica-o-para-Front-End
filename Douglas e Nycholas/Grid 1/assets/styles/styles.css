@@ -1,0 +1,279 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . . . . Black1 Black1 Black1 Black1 Black1 . . . . ."
+    ". . . Black2 Black2 Yellow1 Yellow1 Yellow1 Yellow1 Yellow1 Black3 Black3 . . ."
+    ". . Black4 Yellow2 Yellow2 Yellow2 Yellow2 Yellow2 Yellow2 Yellow2 Yellow2 Yellow2 Black5 . ."
+    ". Black6 Yellow3 Yellow3 Yellow3 Yellow3 Yellow3 Yellow3 Yellow3 Yellow3 Yellow3 Yellow3 Yellow3 Black7 ."
+    ". Black29 Yellow4 Yellow4 Yellow4 Yellow4 Yellow4 Yellow4 Yellow4 Yellow4 Yellow4 Yellow4 Yellow4 Black30 ."
+    "Black8 Black8 Black8 Black8 Black8 Black8 Black8 Black8 Black8 Black8 Black8 Black8 Black8 Black8 Black8"
+    "Black9 Yellow5 Black10 Black10 . . Black13 Black14 Black14 Black14 . . Black17 Yellow6 Black18"
+    "Black31 Yellow19 Black38 Black38 Black11 . Black37 Yellow9 Black15 Black15 Black15 . Black39 Yellow20 Black34"
+    "Black32 Yellow8 Yellow8 Black12 Black12 Black12 Yellow10 Yellow10 Yellow10 Black16 Black16 Black16 Yellow11 Yellow11 Black35"
+    "Black33 Yellow7 Yellow7 Yellow7 Yellow7 Yellow7 Yellow7 Yellow7 Yellow7 Yellow7 Yellow7 Yellow7 Yellow7 Yellow7 Black36"
+    ". Black19 Yellow12 Yellow12 Yellow12 Yellow12 Yellow12 Yellow12 Yellow12 Yellow12 Yellow12 Yellow12 Yellow12 Black20 ."
+    ". Black40 Yellow13 Yellow13 Yellow13 Black21 Yellow14 Yellow14 Yellow14 Black22 Yellow15 Yellow15 Yellow15 Black41 ."
+    ". . Black23 Yellow16 Yellow16 Yellow16 Black24 Black24 Black24 Yellow17 Yellow17 Yellow17 Black25 . ."
+    ". . . Black26 Black26 Yellow18 Yellow18 Yellow18 Yellow18 Yellow18 Black27 Black27 . . ."
+    ". . . . . Black28 Black28 Black28 Black28 Black28 . . . . .";
+}
+
+.Black1 {
+  grid-area: Black1;
+}
+
+.Black2 {
+  grid-area: Black2;
+}
+
+.Yellow1 {
+  grid-area: Yellow1;
+}
+
+.Black3 {
+  grid-area: Black3;
+}
+
+.Black4 {
+  grid-area: Black4;
+}
+
+.Yellow2 {
+  grid-area: Yellow2;
+}
+
+.Black5 {
+  grid-area: Black5;
+}
+
+.Yellow3 {
+  grid-area: Yellow3;
+}
+
+.Yellow4 {
+  grid-area: Yellow4;
+}
+
+.Black8 {
+  grid-area: Black8;
+}
+
+.Black11 {
+  grid-area: Black11;
+}
+
+.Black12 {
+  grid-area: Black12;
+}
+
+.Black14 {
+  grid-area: Black14;
+}
+
+.Black15 {
+  grid-area: Black15;
+}
+
+.Black16 {
+  grid-area: Black16;
+}
+
+.Yellow7 {
+  grid-area: Yellow7;
+}
+
+.Yellow10 {
+  grid-area: Yellow10;
+}
+
+.Yellow9 {
+  grid-area: Yellow9;
+}
+
+.Yellow12 {
+  grid-area: Yellow12;
+}
+
+.Yellow13 {
+  grid-area: Yellow13;
+}
+
+.Black21 {
+  grid-area: Black21;
+}
+
+.Yellow14 {
+  grid-area: Yellow14;
+}
+
+.Black22 {
+  grid-area: Black22;
+}
+
+.Yellow15 {
+  grid-area: Yellow15;
+}
+
+.Black23 {
+  grid-area: Black23;
+}
+
+.Yellow16 {
+  grid-area: Yellow16;
+}
+
+.Black24 {
+  grid-area: Black24;
+}
+
+.Yellow17 {
+  grid-area: Yellow17;
+}
+
+.Black25 {
+  grid-area: Black25;
+}
+
+.Black26 {
+  grid-area: Black26;
+}
+
+.Black27 {
+  grid-area: Black27;
+}
+
+.Black28 {
+  grid-area: Black28;
+}
+
+.Yellow18 {
+  grid-area: Yellow18;
+}
+
+.Black6 {
+  grid-area: Black6;
+}
+
+.Black29 {
+  grid-area: Black29;
+}
+
+.Black7 {
+  grid-area: Black7;
+}
+
+.Black30 {
+  grid-area: Black30;
+}
+
+.Black9 {
+  grid-area: Black9;
+}
+
+.Black31 {
+  grid-area: Black31;
+}
+
+.Black32 {
+  grid-area: Black32;
+}
+
+.Black33 {
+  grid-area: Black33;
+}
+
+.Black18 {
+  grid-area: Black18;
+}
+
+.Black34 {
+  grid-area: Black34;
+}
+
+.Black35 {
+  grid-area: Black35;
+}
+
+.Black36 {
+  grid-area: Black36;
+}
+
+.Black13 {
+  grid-area: Black13;
+}
+
+.Black37 {
+  grid-area: Black37;
+}
+
+.Black10 {
+  grid-area: Black10;
+}
+
+.Black38 {
+  grid-area: Black38;
+}
+
+.Yellow5 {
+  grid-area: Yellow5;
+}
+
+.Yellow19 {
+  grid-area: Yellow19;
+}
+
+.Black17 {
+  grid-area: Black17;
+}
+
+.Black39 {
+  grid-area: Black39;
+}
+
+.Yellow6 {
+  grid-area: Yellow6;
+}
+
+.Yellow20 {
+  grid-area: Yellow20;
+}
+
+.Yellow11 {
+  grid-area: Yellow11;
+}
+
+.Yellow8 {
+  grid-area: Yellow8;
+}
+
+.Black19 {
+  grid-area: Black19;
+}
+
+.Black40 {
+  grid-area: Black40;
+}
+
+.Black20 {
+  grid-area: Black20;
+}
+
+.Black41 {
+  grid-area: Black41;
+}
+
+.Black {
+  background-color: black;
+  height: 60px;
+  width: 100%;
+}
+
+.Yellow {
+  background-color: yellow;
+  height: 60px;
+  width: 100%;
+}

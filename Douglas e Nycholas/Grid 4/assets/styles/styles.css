@@ -1,0 +1,161 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto auto auto auto auto auto auto auto auto;
+  grid-auto-columns: 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "a a a a d d"
+    "b b c c d d"
+    "n n n n n n"
+    "e e f f g g"
+    "h h h h g g"
+    "i i i i i i"
+    "j j k k k k"
+    "j j k k k k"
+    "j j l l m m";
+}
+
+.a {
+  grid-area: a;
+  height: 201px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.b {
+  grid-area: b;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c {
+  grid-area: c;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.d {
+  grid-area: d;
+  height: 403px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.e {
+  grid-area: e;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f {
+  grid-area: f;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.g {
+  grid-area: g;
+  height: 602px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h {
+  grid-area: h;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.i {
+  grid-area: i;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.j {
+  grid-area: j;
+  height: 702px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.k {
+  grid-area: k;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.l {
+  grid-area: l;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.m {
+  grid-area: m;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.n {
+  grid-area: n;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.default {
+  background-color: #3171a5;
+  border: 2px solid rgb(247, 242, 175);
+  text-align: center;
+}
+
+.tako {
+  height: 170px;
+  width: 200px;
+}
+.russia {
+  height: 170px;
+  width: 190px;
+}
+.bentou {
+  height: 170px;
+  width: 300px;
+}
+.vaso {
+  height: 170px;
+  width: 200px;
+}
+.oni {
+  height: 180px;
+  width: 200px;
+}
+.tuba {
+  height: 170px;
+  width: 200px;
+}

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./assets/styles/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/20573e54b4.js" crossorigin="anonymous"></script>
+  <title>Mix Burguers</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div id="navContainer" class="container">
+      <a class="navbar-brand" href=""><i class="fa-solid fa-burger"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contato</a>
+          </li>
+        </ul>
+        <form class="d-flex me-2">
+          <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+          <button id="buscar" class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <h1 class="title">Mix Burguers</h1>
+  <h2 class="menu">Menu</h2>
+  <h3 class="titleSection1">Burguers</h3>
+  <div id="carouselCards1" class="carousel">
+    <section class="pt-3 pb-3">
+      <div class="container">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                  <img src="./assets/img/hamburguer com dois bifes bacon cheddar.jfif" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Duplo Bacon cheddar</h5>
+                    <p class="card-price">R$20,99</p>
+                    <button type="button" class="btn btn-primary">Pedir</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                  <img src="./assets/img/hambuguer simples com cebola roxa.jfif" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Americano</h5>
+                    <p class="card-price">R$12,99</p>
+                    <a href="#" class="btn btn-primary">Pedir</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                  <img src="./assets/img/hambuguer com dois bife cheddar e picles.jfif" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Duplo Cheddar</h5>
+                    <p class="card-price">R$16,99</p>
+                    <a href="#" class="btn btn-primary">Pedir</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                  <img src="./assets/img/hambuguer com 3 bife cheddar e bacon.jfif" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Super Bacon Cheddar</h5>
+                    <p class="card-price">R$22,99</p>
+                    <a href="#" class="btn btn-primary">Pedir</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item ">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                  <img src="./assets/img/Hambúrguer Artesanal para vender.jfif" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Triple Cheddar Burguer</h5>
+                    <p class="card-price">R$20,99</p>
+                    <button type="button" class="btn btn-primary">Pedir</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                  <img src="./assets/img/Ideias de comida para vender no delivery_ Hambúrguer gourmet.jfif"
+                    class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Gourmet Burguer</h5>
+                    <p class="card-price">R$25,99</p>
+                    <a href="#" class="btn btn-primary">Pedir</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                  <img src="./assets/img/ham1.jfif" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Gema Dourada</h5>
+                    <p class="card-price">R$17,99</p>
+                    <a href="#" class="btn btn-primary">Pedir</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                  <img src="./assets/img/rosquinha de hambuguer bacon ovo cheddar.jfif" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Rosquinha Burguer</h5>
+                    <p class="card-price">R$13,99</p>
+                    <a href="#" class="btn btn-primary">Pedir</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCards1" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselCards1" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+  </div>
+  <h3 class="titleSection2">Hot Dogs</h3>
+  <div id="carouselCards2" class="carousel">
+    <section class="pt-3 pb-3">
+      <div class="container">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                  <img src="./assets/img/cachorro quente com bastante molho.jfif" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Doguinho</h5>
+                    <p class="card-price">R$12,99</p>
+                    <button type="button" class="btn btn-primary">Pedir</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                  <img src="./assets/img/cachorro quente com molho vermelho [.jfif" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Hot Doguinho</h5>
+                    <p class="card-price">R$13,99</p>
+                    <a href="#" class="btn btn-primary">Pedir</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                  <img src="./assets/img/cachorro quente com palmito.jfif" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Hot Palmito</h5>
+                    <p class="card-price">R$14,99</p>
+                    <a href="#" class="btn btn-primary">Pedir</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                  <img src="./assets/img/cachorro quente com pedaços de carne.jfif" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Dogão Cheddar</h5>
+                    <p class="card-price">R$16,99</p>
+                    <a href="#" class="btn btn-primary">Pedir</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item ">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                  <img src="./assets/img/cachorro quente simples.jfif" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Vegano</h5>
+                    <p class="card-price">R$15,99</p>
+                    <button type="button" class="btn btn-primary">Pedir</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                  <img src="./assets/img/dogão.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Super Dog</h5>
+                    <p class="card-price">R$16,99</p>
+                    <a href="#" class="btn btn-primary">Pedir</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                  <img src="./assets/img/completo.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Completo</h5>
+                    <p class="card-price">R$18,99</p>
+                    <a href="#" class="btn btn-primary">Pedir</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                  <img src="./assets/img/calabresa.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Hot Calabresa</h5>
+                    <p class="card-price">R$14,99</p>
+                    <a href="#" class="btn btn-primary">Pedir</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCards2" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselCards2" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+  </div>
+  <h3 class="titleSection3">Porções</h3>
+  <div id="carouselCards3" class="carousel">
+    <section class="pt-3 pb-3">
+      <div class="container">
+      <!-- inicio carrossel de card´s 3 -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                  <img src="./assets/img/aneis de cebola.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Anéis de Cebola</h5>
+                    <p class="card-price">R$11,95</p>
+                    <button type="button" class="btn btn-primary">Pedir</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                  <img src="./assets/img/batata com file de peixe.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Mix</h5>
+                    <p class="card-price">R$18,99</p>
+                    <a href="#" class="btn btn-primary">Pedir</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                  <img src="./assets/img/batata frita com bacon.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Batata com bacon</h5>
+                    <p class="card-price">R$16,99</p>
+                    <a href="#" class="btn btn-primary">Pedir</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                  <img src="./assets/img/camarão.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Camarão</h5>
+                    <p class="card-price">R$22,99</p>
+                    <a href="#" class="btn btn-primary">Pedir</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item ">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                  <img src="./assets/img/costelinha.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Costela</h5>
+                    <p class="card-price">R$19,99</p>
+                    <button type="button" class="btn btn-primary">Pedir</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                  <img src="./assets/img/tiras de peixe com molho.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Filé de Tilápia</h5>
+                    <p class="card-price">R$20,99</p>
+                    <a href="#" class="btn btn-primary">Pedir</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                  <img src="./assets/img/torresmo.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Torresminho</h5>
+                    <p class="card-price">R$17,99</p>
+                    <a href="#" class="btn btn-primary">Pedir</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="card" style="width: 18rem;">
+                  <img src="./assets/img/coxinhas de frango.jpg" class="card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Coxa de frango</h5>
+                    <p class="card-price">R$14,99</p>
+                    <a href="#" class="btn btn-primary">Pedir</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCards3" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselCards3" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+  </div>
+  <div class="footer1">
+    <div class="infoFooter1">
+      <p href="#">Horário de Funcionamento: Ter/Dom - 18:00 às 00:00!</p>
+      <a href="tel:+5532999999999">Telefone: (32) 99999-9999</a>
+      <p href="#">Rua Humberto Mauro, nº 777, Centro, Cataguases-MG</p>
+    </div>
+  </div>
+  <section class="footer2">
+    <div class="rSociais">
+      <a href="#"><i class="fab fa-instagram"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-whatsapp"></i></a>
+    </div>
+    <p class="copyright">Mix Burguers</p>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script
+</body>
+</html>

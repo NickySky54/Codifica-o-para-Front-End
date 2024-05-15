@@ -1,0 +1,139 @@
+:root{
+    --btBlack: #000;
+    --btWhite: #fff;
+    --btOrange: #dd8818;
+    --btGrey: #727475;
+}
+
+body{
+    background-color: var(--btOrange);
+}
+
+#navContainer {
+    background-color: var(--btGrey);
+}
+
+.navbar-brand {
+    width:80px;
+}
+
+#buscar {
+    background-color: limegreen;
+    color: var(--btWhite);
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    margin-top:5rem;
+    font-size: 3rem;
+    font-family: "Playfair Display", serif;
+}
+.title
+{
+    display: flex;
+    justify-content: center;
+    margin-top:5rem;
+    font-size: 3rem;
+    font-family: "Pacifico", cursive;
+    font-style: italic;
+}
+.titleSection1{
+    display: flex;
+    justify-content: center;
+    margin-top:5rem;
+    margin-bottom: 3rem;
+    font-family: "Merriweather", serif;
+}
+
+.titleSection2{
+    display: flex;
+    justify-content: center;
+    margin-top:5rem;
+    margin-bottom: 3rem;
+    font-family: "Merriweather", serif;
+}
+.titleSection3{
+    display: flex;
+    justify-content: center;
+    margin-top:5rem;
+    margin-bottom: 3rem;
+    font-family: "Merriweather", serif;
+}
+
+.card {
+    background-color: var(--btOrange);
+    border: 0px;
+}
+
+.card > p {
+    color: var(--btBlack);
+}
+
+.footer2{
+    padding: 20px 0;
+}
+
+.footer1, .infoFooter1 > a{
+    background-color: var(--btOrange);
+    color: var(--btWhite);
+}
+
+.infoFooter1 {
+    border: 1px solid var(--btBlack);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.infoFooter1 p {
+    margin: 0 10px 10px 10px;
+}
+
+.footer2, .rSociais{
+    text-align: center;
+    padding-top: 25px;
+    color: var(--btWGrey);
+}
+
+.footer2 .rSociais a{
+    font-size: 1.7em;
+    border: 1px solid var(--btGrey);
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    margin: 0 10px 20px 0;
+    text-align: center;
+    border-radius: 50%;
+    background-color: var(--btWhite);
+}
+
+.fa-instagram {
+    color: coral;
+}
+
+.fa-twitter {
+    color: lightskyblue;
+}
+
+.fa-facebook {
+    color: mediumblue;
+}
+
+.fa-whatsapp {
+    color: limegreen
+}
+
+.carousel-indicators li {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+  }
+.card img
+{
+    width: 210px;
+    height: 210px;
+    object-fit: cover;
+}
